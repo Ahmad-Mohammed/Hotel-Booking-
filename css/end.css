@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cabin', sans-serif;
+    background:   rgb(233 225 225 / 56%);
+}
+.card-wrap{
+    height: 13.65rem;
+    width: 27.15rem;
+    border-radius: 0.37rem;
+    
+}
+.card{
+    height: inherit;
+    width: inherit; 
+}
+.card-back{
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    border-radius: 0.37rem;
+    background-color: #CCD6DD;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.user-info{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #292F33;
+    padding: 1.6rem 1.1rem;
+}
+ .username{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(2, 68, 99);
+}
+ .user-bio{
+    font-size: 1rem;
+    margin: 1.1rem 0;
+}
+a{
+    color: #1396e1;
+    font-size: 1em;
+    font-weight: 700;
+    text-decoration: none;
+}

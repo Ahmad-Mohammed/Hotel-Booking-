@@ -1,0 +1,191 @@
+
+ * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: rgb(233 225 225 / 56%);
+    font-family: 'Open Sans', Arial, 'Helvetica Neue', Sans-serif, Verdana, Tahoma;
+    font-size: 62.5%;
+  }
+   .main-wrapper {
+       display: flex;
+       margin: 50px auto 40px;
+       text-align: center;
+    justify-content: center;
+    
+   }
+  
+   .main-title {
+    color: #242424;
+    font: 400 3.2em 'Open Sans', Arial, Sans-serif, Verdana;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 63px;
+    font-size: 42px;
+   }
+  
+   .main-title a {
+    color: #1396e1;
+    font-size: 0.5em;
+    font-weight: 700;
+    text-decoration: none;
+   }
+  
+
+   .list-images {
+      display: flex;
+    margin: 40px;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: inherit;
+    height:inherit;
+   }
+
+
+.type{
+    width: 384px;
+    height: 264px;
+    margin: 5px;
+    display: inline;
+    border: 4px solid #FFF;
+    box-shadow: -3px 3px 23px 0px rgba(0,0,0,0.75);   
+     color: #FFF;
+    font-size: 1.5em;
+    font-weight: 700;
+    transform: scale(0.9);
+}
+  
+    .image1,
+    .image2,
+    .image3,
+    .image4,
+    .image5,
+    .image6,
+    .image7,
+    .image8,
+    .image9,
+    .image10,
+    .image11,
+    .image12 {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 15px;
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .image1 {
+        background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0)), url("k.jpg");
+        background-size: cover;
+    }
+    
+    .image2 {
+        background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0)), url("x.jpg");
+        background-size: cover;
+    }
+    
+    .image3 {
+        background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0)), url("c.jpg");
+        background-size: cover;
+    }
+    .image4 {
+        background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0)), url("w.jpg");
+
+        background-size: cover;
+    }
+   
+    .image5 {
+        background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0)), url("r.jpg");
+
+        background-size: cover;
+    }
+    .image6 {
+        background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0)), url("y.jpg");
+
+        background-size: cover;
+    }
+    .image7 {
+        background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0)), url("u.jpg");
+
+        background-size: cover;
+    }
+    .image8 {
+        background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0)), url("k.jpg");
+
+        background-size: cover;
+    }
+    .image9 {
+        background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0)), url("x.jpg");
+
+        background-size: cover;
+    }
+    .image10 {
+        background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0)), url("c.jpg");
+
+        background-size: cover;
+    }
+    .image11 {
+        background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0)), url("w.jpg");
+
+        background-size: cover;
+    }
+    .image12 {
+        background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0)), url("r.jpg");
+
+        background-size: cover;
+    }
+   
+   
+    .image1:hover .image-overlay,
+    .image2:hover .image-overlay,
+    .image3:hover .image-overlay, 
+    .image4:hover .image-overlay, 
+    .image5:hover .image-overlay, 
+    .image6:hover .image-overlay, 
+    .image7:hover .image-overlay, 
+    .image8:hover .image-overlay, 
+    .image9:hover .image-overlay, 
+    .image10:hover .image-overlay, 
+    .image11:hover .image-overlay, 
+    .image12:hover .image-overlay
+     {
+        
+        opacity: 1;
+    }
+    
+    .image-overlay {
+        opacity: 0;
+        background-color: rgba(87, 71, 71, 0.623);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        transition: all 0.4s ease-in-out;
+    }
+    
+    .image-overlay-border {
+        border: 2px solid white;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(255, 166, 0);
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 2px;
+        font-size: 50px;
+    }
+    a{
+        text-decoration: none;
+    }
+  
+    .sepcialities-col{
+        width: 400px;
+        height: 350px;
+        margin: 50px;
+    }

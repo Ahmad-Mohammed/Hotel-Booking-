@@ -1,0 +1,129 @@
+	
+	
+	.sepcialities-section {
+        background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("photo_2021-05-25_03-51-21.jpg");
+        background-size: cover;
+        padding-top: 64px;
+       
+    }
+    
+    .sepcialities-middle {
+        text-align: center;
+        position: relative;
+    }
+    
+    
+    
+    .sepcialities-h1 {
+        font-family: 'Rochester', cursive;
+        color: #F2AC32;
+        margin-bottom: 15px;
+        font-size: 40px;
+    }
+    
+    .sepcialities-h2 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+        letter-spacing: 2px;
+        margin-bottom: 50px;
+        color: white;
+        font-size: 50px;
+    }
+    
+    .specialities-h3 {
+        font-family: 'Oswald', sans-serif;
+        color: white;
+        font-size: 20px;
+        letter-spacing: 2px;
+        margin-bottom: 70px;
+    }
+    
+    
+    .sepcialities-row {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .sepcialities-col {
+        width: 300px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .image1,
+    .image2,
+    .image3
+     {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 15px;
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .image1 {
+        background-image: url("a.jpg");
+        background-size: cover;
+    }
+    
+    .image2 {
+        background-image: url("x.jpg");
+        background-size: cover;
+    }
+    
+    .image3 {
+        background-image: url("c.jpg");
+        background-size: cover;
+    }
+   
+    .image1:hover .image-overlay,
+    .image2:hover .image-overlay,
+    .image3:hover .image-overlay 
+     {
+        
+        opacity: 1;
+    }
+    
+    .image-overlay {
+        opacity: 0;
+        background-color: rgb(91 167 135 / 50%);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        /* padding: 9px; */
+        transition: all 0.4s ease-in-out;
+    }
+    
+    .image-overlay-border {
+        border: 2px solid white;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 2px;
+        font-size: 18px;
+    }
+    .sepcialities-middle:before {
+        content: '';
+        position: absolute;
+        /* border-top: 100px solid #ecdcdc;
+        border-right: 100vw solid transparent; */
+        top: -100px;
+        left: 0;
+    }
+    
+    .sepcialities-middle:after {
+        content: '';
+        position: absolute;
+        /* border-bottom: 100px solid #ecdcdc;
+        border-left: 100vw solid transparent; */
+        bottom: -100px;
+        right: 0;
+    }
+    a{
+        text-decoration: none;
+    }
+    

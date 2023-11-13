@@ -1,0 +1,673 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+}
+header{
+  position: relative;
+  width: 100%;
+  height: 75vh;
+  background-position: center;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0)), url("63f7c99710754628b27cd0e01e7a15b4_LARGE!_!ea187f0dc3070e70e1745dfd9fc225d6.jpg");
+  background-size: contain;
+  background-size: cover;
+ 
+}
+.nav1{
+  position: relative;
+  width: 100%;
+  height: 20%;
+}
+.nav1 .left{
+	 
+    position: absolute;
+    color: white;
+    font-family: "Comic Sans Ms",helvetica;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-left: 24px;
+    top: 50%;
+    width: 80%;
+    height: 100%;
+    transform: translateY(-20%);
+    font-size: 45px;
+}
+.nav1 .left::selection{
+  background: #f00;
+  color: #fff;
+}
+.nav1 .right{
+    position: absolute;
+    margin-right: 26px;
+    top: -4px;
+    right: 0px;
+    width: 50%;
+    height: 100%;
+}
+.nav1 .right ul{
+  position: absolute;
+  display: flex;
+  top: 20%;
+  right: 10%;
+}
+.nav1 .right ul li{
+  list-style: none;
+  padding: 10px;
+}
+.nav1 .right ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  transition: .5s
+}
+.nav1 .right ul li a:hover{
+    color: black;
+
+  }
+.nav1 .icon{
+    position: absolute;
+    right: -27px;
+    top: 61%;
+    padding: 10px;
+}
+.one{
+  padding-right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #fff;
+}
+.text{
+  position: relative;
+  width: 100%;
+  height: 40%;
+  text-align: center;
+  top: 30%;
+  
+}
+
+.text h1::selection{
+  background: #f00;
+  color: #fff;
+}
+button{
+  width: 150px;
+  height: 40px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  font-weight: 700;
+  transition: .5s;
+  background-color: #8e8c8c;
+  cursor: pointer;
+}
+button:hover{
+  background: black;
+  border: 1px solid black;
+  color: white;
+}
+.discover-section {
+    background-color: #ecdcdc;
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+}
+.ALEEPO-item {
+    height: 390px;
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+.ALEEPO-border {
+    border: 2px solid #F2AC32;
+    position: relative; /*to make position absolute work we need to put relative to the parent*/
+}
+.ALEEPO-overlay {
+    padding: 70px 10px 0 10px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    background-image: url("16-08-07_01-58-00.jpg");
+    width: 100%;
+    height: 100%;
+    box-shadow: -3px 3px 23px 0px rgba(0,0,0,0.75);
+}
+
+.discover-h1 {
+    font-family: 'Rochester', cursive;
+    color: #F2AC32;
+    margin-bottom: 15px;
+}
+
+.discover-h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.ALEEPO-item {
+    height: 390px;
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+.ALEEPO-1 {
+    background-image: url("44faba76455531.5c6abdfdaece6-scaled.jpg");
+    background-size: cover;
+    margin-top: -30px;
+    box-shadow: -3px 3px 23px 0px rgba(0,0,0,0.75);/*from box shadow css generator*/
+}
+
+
+.ALEEPO-2 {
+    background-image: url("ديكور-جمامات-حمامات-مودرن-وحمامات-صغيرة-تصاميم-حمامات-وديكورات-حمامات-فخمة-تصميم-حمامات-مودرن-13.jpg");
+    background-size: cover;
+    box-shadow: -3px 3px 23px 0px rgba(0,0,0,0.75);
+}
+
+.ALEEPO-item p {
+        color: dimgray;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .ALEEPO-item a {
+        font-size: 16px;
+        text-decoration: none;
+        color: #F2AC32;
+        font-family: 'Oswald', sans-serif;
+    }
+	
+	
+	
+	
+	
+	.sepcialities-section {
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("photo_2021-05-25_03-51-21.jpg");
+    background-size: cover;
+    padding-top: 69px;
+    padding-bottom: 69px;
+}
+
+.sepcialities-middle {
+    text-align: center;
+    position: relative;
+}
+
+
+
+.sepcialities-h1 {
+    font-family: 'Rochester', cursive;
+    color: #F2AC32;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.sepcialities-h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 50px;
+}
+
+.specialities-h3 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 70px;
+}
+
+
+.sepcialities-row {
+    display: flex;
+    justify-content: center;
+}
+
+.sepcialities-col {
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.image1,
+.image2,
+.image3 {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+.image1 {
+    background-image: url("parilka-v-kvartire-kak-sdelat-domashnyuyu-banyu-4.jpg");
+    background-size: cover;
+}
+
+.image2 {
+    background-image: url("188937132.jpg");
+    background-size: cover;
+}
+
+.image3 {
+    background-image: url("2022_7_16_16_47_0_850.jpg");
+    background-size: cover;
+}
+
+.image1:hover .image-overlay,
+.image2:hover .image-overlay,
+.image3:hover .image-overlay {
+    opacity: 1;
+}
+
+.image-overlay {
+    opacity: 0;
+    background-color: rgb(91 167 135 / 50%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 9px;
+    transition: all 0.4s ease-in-out;
+}
+
+.image-overlay-border {
+    border: 2px solid white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+.sepcialities-middle:before {
+    content: '';
+    position: absolute;
+    /* border-top: 100px solid #ecdcdc;
+    border-right: 100vw solid transparent; */
+    top: -100px;
+    left: 0;
+}
+
+.sepcialities-middle:after {
+    content: '';
+    position: absolute;
+    /* border-bottom: 100px solid #ecdcdc;
+    border-left: 100vw solid transparent; */
+    bottom: -100px;
+    right: 0;
+}
+
+   
+		/*Special Menu Section*/
+.special-menu-section {
+    text-align: center;
+    background-color: #ecdcdc;
+    padding: 50px;
+}
+
+.special-menu-container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.special-menu-h1 {
+    font-family: 'Rochester', cursive;
+    color: #F2AC32;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.special-menu-h2 {
+    margin-bottom: 50px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+
+.special-menu-h3 {
+    width: 100%;
+    font-family: 'Rochester', cursive;
+    letter-spacing: 2px;
+    font-size: 22px;
+}
+
+.separator,
+.separator-orange {
+    display: inline-block; /*i can't change the width unless i put this because the default is inline*/
+    width: 40px;
+    border-bottom: 2px solid #fff;
+    margin: 15px auto; /*left and right center (auto)*/
+}
+
+.special-menu-h4 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+    width: 100%;
+}
+
+.special-menu-p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    padding: 30px 20px;
+    width: 100%;
+}
+
+.special-menu-col {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.col-large {
+    width: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.col-large-1,
+.col-large-3 {
+    background-color: #584f4f;
+    color: white;
+    justify-content: center;
+}
+
+.fa-futbol,
+.fa-umbrella {
+    width: 100%;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.col-large-2 {
+    background-image: url("wsi-imageoptim-753e37992a8af0ebcdcd6a66092f9dbc.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.col-large-4 {
+    background-image: url("photo_2021-06-01_03-43-39.jpg");
+    background-size: cover;
+}
+
+.fa-music {
+    color: #F2AC32;
+    font-size: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.fa-newspaper {
+    color: #F2AC32;
+    font-size: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.col-small {
+    width: 50%;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.col-small-1 {
+    background-color: #000000c9;
+}
+
+.col-small-2 {
+    background-image: url("images (1).jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.col-small-3 {
+    background-image: url("تنزيل.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.col-small-h3 {
+    font-family: 'Rochester', cursive;
+    font-size: 22px;
+    letter-spacing: 2px;
+    width: 100%;
+    color: #F2AC32;
+}
+
+
+.col-small-h4,
+.col-small-h5 {
+    width: 100%;
+    color: black;
+    letter-spacing: 3px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.col-small-h5 {
+    color: #F2AC32;
+    margin-top: 8px;
+}
+
+.separator-orange {
+    border-bottom: 2px solid #F2AC32;
+}
+
+/*Our Menu Section*/
+.our-menu-section {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("photo_2021-06-01_03-42-31.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 100px 50px;
+}
+
+.our-menu-h1 {
+    font-family: 'Rochester', cursive;
+    color: #F2AC32;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.our-menu-h2 {
+    color: #fff;
+    margin-bottom: 50px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+
+.ALEPPO-container {
+    color: #fff;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+}
+
+.our-menu-row {
+    display: flex;
+    justify-content: center;
+}
+
+.our-menu-col {
+    width: 320px;
+    margin: 30px;
+}
+
+.ALEPPO-title {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.ALEPPO-price {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: #F2AC32;
+}
+
+.ALEPPO-ingredients {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+.our-menu-button {
+    border: 1px solid white;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px;
+    padding: 10px 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+    .our-menu-button:hover {
+        background-color: rgba(255,255,255,0.8);
+        color: #000;
+        padding: 10px 15px;
+    }
+  
+/*Booking Table Section*/
+.booking-table-section {
+    text-align: center;
+    padding: 80px;
+    background-color: #ecdcdc;
+}
+.booking-table-h1 {
+    font-family: 'Rochester', cursive;
+    color: #F2AC32;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.booking-table-h2 {
+    color: #000;
+    margin-bottom: 50px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+
+.booking-table-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.booking-div {
+    background-color: #fff;
+    margin: 30px 15px;
+    font-family: 'Oswald', sans-serif;
+    width: 200px;
+}
+
+.booking-cta {
+    background-color: #F2AC32;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+/*Footer Section*/
+footer {
+    padding: 40px 0;
+    padding-bottom: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("photo_2022-10-22_22-29-59.jpg");
+    background-position: center;
+    background-size: cover;
+    color: #f0f0f0;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    margin: 30px 60px;
+}
+
+.footer-title {
+    margin-bottom: 30px;
+    color: #F2AC32;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.footer-text {
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.footer-email {
+    padding: 10px 20px;
+    width: 230px;
+    height: 45px;
+    margin-bottom: 10px;
+}
+
+.footer-subscribe {
+    width: 230px;
+    height: 45px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    background-color: #F2AC32;
+    display: inline-block;
+    text-align: center;
+    line-height: 45px; /*to center vertically*/
+}
+
+.copyright {
+    padding: 25px;
+    color: #f0f0f0;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    border-top: 1px solid rgba(240, 240, 240, 0.425);
+}
+
+a{
+    text-decoration: none;
+}
+.con1{
+    background-color: #8b8686;
+    width: 100%;
+    height: 625px; 
+      display: flex;
+    justify-content: center;
+}
+.con2{
+    background-color: #7c3131;
+    width: 75%;
+    height: 50%;
+    margin: 140px;
+    display: flex;
+    justify-content: center;
+}
